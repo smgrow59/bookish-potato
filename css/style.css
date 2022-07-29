@@ -1,7 +1,6 @@
-.topbar{
-    border-width: 3x;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
 .logo{
@@ -15,7 +14,9 @@ nav{
     z-index: 1;
     width: 100%;
     height: 80px;
-    background-color:saddlebrown;
+    /* text-align: center; */
+    background: rgb(170,86,8);
+    background: linear-gradient(90deg, rgba(170,86,8,1) 0%, rgba(129,66,8,1) 50%, rgba(97,49,6,1) 100%);
 }
 
 nav ul{
@@ -30,12 +31,53 @@ nav ul a{
     text-decoration: none;
     font-size: 17px;
 }
-body {
+
+.navtext{
+    position: absolute;
+    left: 45%;
+    margin: 10px;
+}
+
+.navtext h1{
+    font-family: "Square Peg", cursive;
+    font-size: 50px;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+.heroimg{
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),  url(/FP/images/alvan-nee-T-0EW-SEbsE-unsplash.jpg);
-    height: 50%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-
+    background-position: 0% 20%;
+    width: 100%;
+    height: 600px;
 }
+
+.herotext{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+body{
+    background-color: #af7c4e;
+}
+
