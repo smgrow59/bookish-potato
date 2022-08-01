@@ -12,6 +12,9 @@
         <div class="logo">
             <img src="/FP/images/icons8-dog-64.png" alt="Dog icon by Icons8">
         </div>
+        <div class="navtext">
+            <h1>SS Marie Bakery</h1>
+        </div>
         <ul>
             <a href="/FP/contact.html"> <li>Contact</li> </a>
             <a href="/FP/about.html"> <li>About</li> </a>
@@ -19,7 +22,29 @@
         </ul>
     </nav>
 
-
+    <div class="contactbox">
+        <form action="action_page.php">
+  
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name">
+  
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email address">
+  
+        <label for="country">Country</label>
+        <select id="country" name="country">
+        <option value="unitedstates">United States</option>
+        <option value="canada">Canada</option>
+        <option value="mexico">Mexico</option>
+        </select>
+  
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="How can we help you?" style="height:200px"></textarea>
+  
+        <input type="submit" value="Submit">
+  
+        </form>
+    </div>
     
 </body>
 </html>
