@@ -28,6 +28,7 @@ nav ul a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Roboto Slab', serif;
     font-size: 17px;
 }
 
@@ -62,7 +63,7 @@ nav ul a{
 }
 
 .herotext{
-    padding-top: 15%;
+    padding-top: 10%;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 23px;
     letter-spacing: 0.2px;
@@ -84,7 +85,7 @@ body{
 h2{
     padding-top: 40px;
     font-size: 35px;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: 'Roboto Slab', serif;
     letter-spacing: 0.2px;
     word-spacing: 0px;
     color: #FFFFFF;
@@ -97,9 +98,9 @@ h2{
 }
 
 article{
-    padding-top: 40px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    letter-spacing: 0.2px;
+    padding-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.6px;
     word-spacing: 0px;
     color: #FFFFFF;
     font-weight: 400;
@@ -118,14 +119,19 @@ p{
     padding: 5px;
 }
 
-.pyrrha{
-    padding-left: 20px;
+.lastrecipe{
+    padding-bottom: 40px;
 }
 
-.pyrrhatext1{
+.dogimg{
+    padding-right: 27%;
+    padding-left: 27%;
+}
+
+.dogtext1{
     padding-top: 40px;
     font-size: 35px;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: 'Roboto Slab', serif;
     letter-spacing: 0.2px;
     word-spacing: 0px;
     color: #FFFFFF;
@@ -134,10 +140,11 @@ p{
     font-style: normal;
     text-transform: none;
     text-shadow: 3px 3px 3px #000000;
+    text-align: center;
 }
 
-.pyrrhatext2{
-    font-family: "Arial Black", Gadget, sans-serif;
+.dogtext2{
+    font-family: 'Roboto Slab', serif;
     letter-spacing: 0.2px;
     word-spacing: 0px;
     color: #FFFFFF;
@@ -146,4 +153,42 @@ p{
     font-style: normal;
     text-transform: none;
     text-shadow: 3px 3px 3px #000000;
+    text-align: center;
 }
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dogtext3{
+    padding-top: 40px;
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    text-shadow: 3px 3px 3px #000000;
+    text-align: center;
+}
+
+.footer{
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(170,86,8,1) 0%, rgba(129,66,8,1) 50%, rgba(97,49,6,1) 100%);
+    color: white;
+    text-align: left;
+  }
