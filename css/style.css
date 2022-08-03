@@ -5,7 +5,7 @@
 
 .logo{
     float: left;
-    padding: 10px;
+    padding: 8px;
 }
 
 nav{
@@ -22,6 +22,7 @@ nav ul{
     list-style-type: none;
     text-align: center;
 }
+
 nav ul a{
     float: right;
     color: #f2f2f2;
@@ -156,17 +157,6 @@ p{
     text-align: center;
 }
 
-.column{
-    float: left;
-    width: 33.33%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .dogtext3{
     padding-top: 40px;
     padding-bottom: 29px;
@@ -183,6 +173,17 @@ p{
     text-align: center;
 }
 
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .footer{
     position: bottom;
     left: 0;
@@ -192,4 +193,8 @@ p{
     background: linear-gradient(90deg, rgba(170,86,8,1) 0%, rgba(129,66,8,1) 50%, rgba(97,49,6,1) 100%);
     color: white;
     text-align: left;
-  }
+}
+
+.medialinks{
+    padding: 10px;
+}
