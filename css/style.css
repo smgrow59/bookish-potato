@@ -14,7 +14,6 @@ nav{
     z-index: 1;
     width: 100%;
     height: 80px;
-    /* text-align: center; */
     background: rgb(170,86,8);
     background: linear-gradient(90deg, rgba(170,86,8,1) 0%, rgba(129,66,8,1) 50%, rgba(97,49,6,1) 100%);
 }
@@ -63,6 +62,7 @@ nav ul a{
 }
 
 .herotext{
+    padding-top: 15%;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 23px;
     letter-spacing: 0.2px;
@@ -81,8 +81,10 @@ body{
     background-color: #af7c4e;
 }
 
-article{
-    font-family: ;
+h2{
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: "Arial Black", Gadget, sans-serif;
     letter-spacing: 0.2px;
     word-spacing: 0px;
     color: #FFFFFF;
@@ -94,6 +96,28 @@ article{
     text-shadow: 3px 3px 3px #000000;
 }
 
-h2{
-    font-size: 35px;
+article{
+    padding-top: 40px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+h3{
+    padding: 10px;
+}
+
+p{
+    padding: 5px;
+}
+
+.pyrrha{
+    
 }
