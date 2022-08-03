@@ -30,6 +30,7 @@ nav ul a{
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
+    font-variant: small-caps;
     font-size: 17px;
 }
 
@@ -158,8 +159,8 @@ p{
 }
 
 .dogtext3{
-    padding-top: 40px;
-    padding-bottom: 25px;
+    padding-top: 39px;
+    padding-bottom: 20px;
     font-size: 23px;
     font-family: 'Roboto Slab', serif;
     letter-spacing: 0.2px;
@@ -178,7 +179,7 @@ p{
     width: 33.33%;
 }
 
-.row:after {
+.row:after{
     content: "";
     display: table;
     clear: both;
@@ -189,12 +190,15 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 70px;
     background: linear-gradient(90deg, rgba(170,86,8,1) 0%, rgba(129,66,8,1) 50%, rgba(97,49,6,1) 100%);
     color: white;
     text-align: left;
 }
 
 .medialinks{
-    
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 30px;
 }
