@@ -119,5 +119,31 @@ p{
 }
 
 .pyrrha{
-    
+    padding-left: 20px;
+}
+
+.pyrrhatext1{
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.pyrrhatext2{
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    text-shadow: 3px 3px 3px #000000;
 }
