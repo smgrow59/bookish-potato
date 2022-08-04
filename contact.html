@@ -14,55 +14,59 @@
     <title>Contact</title>
 </head>
 <body>
-    <nav class="topbar">
-        <div class="logo">
-            <img src="/FP/images/icons8-dog-64.png" alt="Dog icon by Icons8">
+    <div class="page-container">
+        <div class="content-wrap">
+            <nav class="topbar">
+                <div class="logo">
+                    <img src="/FP/images/icons8-dog-64.png" alt="Dog icon by Icons8">
+                </div>
+                <div class="navtext">
+                    <h1>SS Marie Bakery</h1>
+                </div>
+                <ul>
+                    <a href="/FP/contact.html"> <li>Contact</li> </a>
+                    <a href="/FP/about.html"> <li>About</li> </a>
+                    <a href="/FP/index.html"> <li>Home</li> </a>
+                </ul>
+            </nav>
+
+            <P class="contpage">
+                Thank you for visiting me! Unfortunately, treats are not available for sale at this time. <br> If you would like to be updated when they are, please fill out this form below!
+            </P>
+            <br>
+            <div class="contactbox">
+                <form action="action_page.php" class="cp">
+
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name">
+                <br> <br>
+                <label for="lname">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email address">
+                <br><br>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="unitedstates">United States</option>
+                <option value="canada">Canada</option>
+                <option value="mexico">Mexico</option>
+                </select>
+                <br><br>
+                <label for="subject">Subject</label>
+                <br> <br>
+                <textarea id="subject" name="subject" placeholder="Questions? Comments?" style="height:200px"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+
+                </form>
+            </div>
+            <br>
         </div>
-        <div class="navtext">
-            <h1>SS Marie Bakery</h1>
+        
+        <div class="footer">
+            <ul class="medialinks">
+                <a href="https://www.instagram.com/sydbabeyyy/" target="_blank"><img src="/FP/images/icons8-instagram-48.png" alt="instagram logo" height="35px"></i></a>
+                <a href="https://www.facebook.com/sydney.mg.90/"><img src="/FP/images/icons8-facebook-48.png" alt="facebook logo" height="35px"></a>
+            </ul>
         </div>
-        <ul>
-            <a href="/FP/contact.html"> <li>Contact</li> </a>
-            <a href="/FP/about.html"> <li>About</li> </a>
-            <a href="/FP/index.html"> <li>Home</li> </a>
-        </ul>
-    </nav>
-
-    <P class="contpage">
-        Thank you for visiting me! Unfortunately, treats are not available for sale at this time. <br> If you would like to be updated when they are, please fill out this form below!
-    </P>
-
-    <div class="contactbox">
-        <form action="action_page.php" class="cp">
-
-        <label for="fname">Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name">
-            <br>
-        <label for="lname">Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email address">
-            <br>
-        <label for="country">Country</label>
-        <select id="country" name="country">
-        <option value="unitedstates">United States</option>
-        <option value="canada">Canada</option>
-        <option value="mexico">Mexico</option>
-        </select>
-            <br>
-        <label for="subject">Subject</label>
-        <br>
-        <textarea id="subject" name="subject" placeholder="Questions? Comments?" style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-
-        </form>
     </div>
-    
-    <div class="footer">
-        <ul class="medialinks">
-            <a href="https://www.instagram.com/sydbabeyyy/" target="_blank"><img src="/FP/images/icons8-instagram-48.png" alt="instagram logo" height="35px"></i></a>
-            <a href="https://www.facebook.com/sydney.mg.90/"><img src="/FP/images/icons8-facebook-48.png" alt="facebook logo" height="35px"></a>
-        </ul>
-    </div>
-
 </body>
 </html>

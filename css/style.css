@@ -200,11 +200,14 @@ p{
     text-shadow: 3px 3px 3px #000000;
     /* text-align: center; */
     margin: auto;
-
+    background-color: rgba(97,49,6,1);
+    width: 30%;
+    margin-bottom: 70px;
 }
 
 .contpage{
     padding-top: 40px;
+    padding-bottom: 70px;
     font-size: 35px;
     font-family: 'Roboto Slab', serif;
     letter-spacing: 0.2px;
@@ -219,7 +222,7 @@ p{
 }
 
 .footer{
-    position: bottom;
+    
     left: 0;
     bottom: 0;
     width: 100%;
@@ -227,6 +230,9 @@ p{
     background: linear-gradient(90deg, rgba(170,86,8,1) 0%, rgba(129,66,8,1) 50%, rgba(97,49,6,1) 100%);
     color: white;
     text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
 }
 
 .medialinks{
@@ -237,5 +243,16 @@ p{
 }
 
 .cp{
-    padding-left: 50%;
+    padding: 20px;
+    /* margin: auto; */
+    margin-left: 35%;
 }
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
