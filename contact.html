@@ -28,23 +28,28 @@
         </ul>
     </nav>
 
+    <P class="contpage">
+        Thank you for visiting me! Unfortunately, treats are not available for sale at this time. <br> If you would like to be updated when they are, please fill out this form below!
+    </P>
+
     <div class="contactbox">
-        <form action="action_page.php">
+        <form action="action_page.php" class="cp">
 
         <label for="fname">Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name">
-
+            <br>
         <label for="lname">Email</label>
         <input type="text" id="email" name="email" placeholder="Your email address">
-
+            <br>
         <label for="country">Country</label>
         <select id="country" name="country">
         <option value="unitedstates">United States</option>
         <option value="canada">Canada</option>
         <option value="mexico">Mexico</option>
         </select>
-
+            <br>
         <label for="subject">Subject</label>
+        <br>
         <textarea id="subject" name="subject" placeholder="Questions? Comments?" style="height:200px"></textarea>
 
         <input type="submit" value="Submit">

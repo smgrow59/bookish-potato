@@ -27,11 +27,14 @@ nav ul a{
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     font-variant: small-caps;
     font-size: 17px;
+}
+a:hover {
+    color: rgba(170,86,8,1);
 }
 
 .navtext{
@@ -185,6 +188,36 @@ p{
     clear: both;
 }
 
+.contactbox{
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    text-shadow: 3px 3px 3px #000000;
+    /* text-align: center; */
+    margin: auto;
+
+}
+
+.contpage{
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    text-shadow: 3px 3px 3px #000000;
+    text-align: center;
+}
+
 .footer{
     position: bottom;
     left: 0;
@@ -201,4 +234,8 @@ p{
     text-decoration: none;
     padding-top: 15px;
     padding-left: 30px;
+}
+
+.cp{
+    padding-left: 50%;
 }
